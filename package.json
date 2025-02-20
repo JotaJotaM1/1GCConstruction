@@ -1,8 +1,8 @@
 {
-  "name": "1gc-constrution",
+  "name": "1gc-construction",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://github.com/JotaJotaM1/1GCConstruction.git",
+  "homepage": "https://jotajotam1.github.io/1GCConstruction",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -13,13 +13,13 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.19.0",
-    "@types/react": "^19.0.8",
-    "@types/react-dom": "^19.0.3",
+    "@types/react": "^18.2.55",
+    "@types/react-dom": "^18.2.19",
     "@vitejs/plugin-react-swc": "^3.5.0",
     "eslint": "^9.19.0",
     "eslint-plugin-react": "^7.37.4",
