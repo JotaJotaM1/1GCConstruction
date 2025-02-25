@@ -39,6 +39,10 @@
     max-width: 200px;
     padding-bottom: 40px;
 }
+.linkInternal{
+    color: white;
+    text-decoration: none;
+}
 
 .textLogoFooter {
     font-size: 35px;
@@ -91,23 +95,28 @@
     list-style-type: none;
 }
 
-
 .social-icons a {
-    color: white; 
-    font-size: 30px; 
-    transition: color 0.3s ease; 
+    color: white;
+    font-size: 30px;
+    transition: color 0.3s ease;
 }
-.cnt-Polit ul   {
+
+.cnt-Polit ul {
     padding: 40px 0 50px;
 }
-.cnt-Polit ul li{
+
+.cnt-Polit ul li {
     padding-left: 0;
 
 }
 
-
-.text-resve{
+.text-resve {
     text-align: center;
     color: grey;
     font-size: 14px;
+}
+
+.linkInternalPoliti{
+    text-decoration: none;
+    color: white;
 }
