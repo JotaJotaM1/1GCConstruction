@@ -1,0 +1,51 @@
+main {
+    background-color: #F6F8FA;
+}
+
+.cnt-title {
+    padding: 15px;
+}
+
+.titleHome {
+    text-align: center;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 1.2;
+    padding-top: 20px;
+}
+
+.subtitleHome {
+    text-align: center;
+    padding-top: 20px;
+    color: #6F6F6F;
+    line-height: 1.2;
+    font-size: 15px;
+}
+
+.imgPortada {
+    position: relative;
+    display: inline-block;
+}
+
+.portadaHome {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.textCTAimgPorta {
+    display: flex;
+    position: absolute;
+    top: 84%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.arrowImgPorta{
+    padding-left: 6px;
+}

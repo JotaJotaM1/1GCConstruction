@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'; // Importa Link para enlaces internos
+import { Link } from 'react-router-dom';
 import '../styles/components/Footer.css';
 import LogoTemporal from '../assets/Logotemporal.png';
 import 'bootstrap-icons/font/bootstrap-icons.css';
