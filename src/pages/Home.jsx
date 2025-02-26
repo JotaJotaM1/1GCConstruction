@@ -92,8 +92,8 @@ function Home() {
                         </div>
                     </div>
                 </div>
-                <div>
-                    <button className="btn-ChooseUs">Watch Our Process Video</button>
+                <div className="cntButton">
+                    <button className="btn-Hww">Watch Our Process Video<i className="arrowbtnHww bi bi-arrow-right"></i></button>
                 </div>
             </section>
         </main>

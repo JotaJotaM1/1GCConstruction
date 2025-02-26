@@ -74,7 +74,7 @@ main {
     font-weight: 400;
 }
 
-.btnAcordeon, .btn-ChooseUs {
+.btnAcordeon, .btn-Hww {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -178,4 +178,20 @@ main {
     font-size: 25px;
     font-weight: 600;
     padding-bottom: 20px;
+}
+
+.cntButton{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0 30px;
+}
+
+.btn-Hww{
+    width: 240px;
+}
+.arrowbtnHww{
+    font-size: 13px;
+    padding-left: 10px;
 }
