@@ -1,24 +1,74 @@
 import "../styles/pages/Home.css";
 import { Link } from 'react-router-dom';
 import portadaHome from '../assets/portadaHome.jpg';
+import remoKitchenHome from '../assets/remoKitchenHome.jpg';
+import remoBathroomHome from '../assets/remoBathroomHome.jpg';
+import remoComerHome from '../assets/remoComerHome.jpg';
 import 'bootstrap-icons/font/bootstrap-icons.css';
+
 
 function Home() {
     return (
         <main>
-            <div className="cnt-title">
-                <h1 className="titleHome">Trusted General Contractors in Central & South Florida – Residential & Commercial Remodeling Experts</h1>
-                <p className="subtitleHome">Looking for licensed general contractors in Florida? We specialize in kitchen and bathroom remodeling, home additions, and commercial renovations. We deliver transparent pricing, detailed estimates, and 24-month labor warranties. Serving Miami, Orlando, Tampa, and surrounding areas, we’re your one-stop solution for projects that blend quality craftsmanship with Florida’s unique building standards – from hurricane-resistant upgrades to ADA-compliant designs.</p>
-            </div>
-            <div>
-                <figure className="cnt-imgPortada">
-                    <img className="portadaHome" src={portadaHome} alt="Portada" />
-                    <Link className="textCTAimgPorta">
-                        Get Your Free Project Estimate
-                        <i className="arrowImgPorta bi bi-arrow-right"></i> {/* Usa className en lugar de class */}
-                    </Link>
-                </figure>
-            </div>
+            <section>
+                <div className="cnt-title">
+                    <h1 className="titleHome">Florida&rsquo;s Trusted Remodeling Contractor</h1>
+                    <p className="subtitleHome">Residential & Commercial Experts</p>
+                </div>
+                <div>
+                    <figure className="cnt-imgPortada">
+                        <img className="portadaHome" src={portadaHome} alt="Portada" />
+                        <Link className="textCTAimgPorta">
+                            Get Your Free Project Estimate
+                            <i className="arrowImgPorta bi bi-arrow-right"></i>
+                        </Link>
+                    </figure>
+                </div>
+            </section>
+            <section>
+                <div className="cnt-acordeonFather">
+                    <div className="titleAcordenon">
+                        <h2 className="subTitleAcor">Services</h2>
+                        <button className="btnAcordeon">Explore All<i className="upRigAcordeon bi bi-arrow-up-right"></i></button>
+                    </div>
+                    <div>
+                        <hr className="separaAcordeon"></hr>
+                        <div className="cnt-cardAcordeon">
+                            <h2 className="subcardAcorde"><span className="numCard">01</span>Kitchen Remodeling</h2>
+                            <figure className="cnt-figureAcorde">
+                                <img className="imgAcordeonHome" src={remoKitchenHome} alt="Kitchen Remodeling" />
+                            </figure>
+                            <div className="cnt-linkMoreAcordeon">
+                                <Link to="/kitchen-remodeling" className="learnMoreLink">Learn More<i className="arrowLinkAcor bi bi-arrow-right"></i></Link>
+                            </div>
+
+                        </div>
+                        <hr className="separaAcordeon"></hr>
+                        <div className="cnt-cardAcordeon">
+                            <h2 className="subcardAcorde"><span className="numCard">02</span>Bathroom Remodeling</h2>
+                            <figure>
+                                <img className="imgAcordeonHome" src={remoBathroomHome} alt="Bathroom Remodeling" />
+                            </figure>
+                            <div className="cnt-linkMoreAcordeon">
+                                <Link to="/bathroom-remodeling" className="learnMoreLink">Learn More<i className="arrowLinkAcor bi bi-arrow-right"></i></Link>
+
+                            </div>
+
+                        </div>
+                        <hr className="separaAcordeon"></hr>
+                        <div className="cnt-cardAcordeon">
+                            <h2 className="subcardAcorde"><span className="numCard">03</span>Commercial Build-Outs</h2>
+                            <figure>
+                                <img className="imgAcordeonHome" src={remoComerHome} alt="Commercial Build-Outs" />
+                            </figure>
+                            <div className="cnt-linkMoreAcordeon">
+                                <Link to="/commercial-build-outs" className="learnMoreLink">Learn More<i className="arrowLinkAcor bi bi-arrow-right"></i></Link>
+                            </div>
+                        </div>
+                        <hr className="separaAcordeon"></hr>
+                    </div>
+                </div>
+            </section>
         </main>
     );
 }
