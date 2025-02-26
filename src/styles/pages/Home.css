@@ -74,7 +74,7 @@ main {
     font-weight: 400;
 }
 
-.btnAcordeon {
+.btnAcordeon, .btn-ChooseUs {
     display: flex;
     justify-content: center;
     align-items: center;

@@ -92,6 +92,9 @@ function Home() {
                         </div>
                     </div>
                 </div>
+                <div>
+                    <button className="btn-ChooseUs">Watch Our Process Video</button>
+                </div>
             </section>
         </main>
     );
