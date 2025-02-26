@@ -74,26 +74,31 @@ function Home() {
                                 <i className="iconUs bi bi-badge-3d-fill"></i>
                             </figure>
                             <h2 className="tittleCard2">3D Project Preview</h2>
-                            <p>See your remodel digitally before we start</p>
+                            <p className="textcard2">See your remodel digitally before we start</p>
                         </div>
                         <div className="cnt-card2">
                             <figure className="icon-container">
                                 <i className="iconUs bi bi-camera2"></i>
                             </figure>
                             <h2 className="tittleCard2">Daily Photo Updates</h2>
-                            <p>Track progress via our client portal</p>
+                            <p className="textcard2">Track progress via our client portal</p>
                         </div>
                         <div className="cnt-card2">
                             <figure className="icon-container">
                                 <i className="iconUs bi bi-wallet-fill"></i>
                             </figure>
                             <h2 className="tittleCard2">Open-Book Pricing</h2>
-                            <p>Hourly labor rates + material costs disclosed upfront</p>
+                            <p className="textcard2">Hourly labor rates + material costs disclosed upfront</p>
                         </div>
                     </div>
                 </div>
                 <div className="cntButton">
-                    <button className="btn-Hww">Watch Our Process Video<i className="arrowbtnHww bi bi-arrow-right"></i></button>
+                    <Link className="rutVideo" to="#">
+                        <button className="btn-Hww">
+                            Watch Our Process Video
+                            <i className="arrowbtnHww bi bi-arrow-right"></i>
+                        </button>
+                    </Link>
                 </div>
             </section>
         </main>
