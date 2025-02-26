@@ -32,40 +32,64 @@ function Home() {
                         <button className="btnAcordeon">Explore All<i className="upRigAcordeon bi bi-arrow-up-right"></i></button>
                     </div>
                     <div>
-                        <hr className="separaAcordeon"></hr>
-                        <div className="cnt-cardAcordeon">
-                            <h2 className="subcardAcorde"><span className="numCard">01</span>Kitchen Remodeling</h2>
-                            <figure className="cnt-figureAcorde">
-                                <img className="imgAcordeonHome" src={remoKitchenHome} alt="Kitchen Remodeling" />
-                            </figure>
-                            <div className="cnt-linkMoreAcordeon">
-                                <Link to="/kitchen-remodeling" className="learnMoreLink">Learn More<i className="arrowLinkAcor bi bi-arrow-right"></i></Link>
-                            </div>
+                        <h2 className="subTittleService">Top Residential & Commercial Remodeling Services in Florida</h2>
+                    </div>
 
-                        </div>
-                        <hr className="separaAcordeon"></hr>
-                        <div className="cnt-cardAcordeon">
-                            <h2 className="subcardAcorde"><span className="numCard">02</span>Bathroom Remodeling</h2>
+                    <div className="parent">
+                        <div className="cnt-card">
+                            <h2 className="tittleCardServices"><span className="NumCardService">01</span>Kitchen Remodeling</h2>
                             <figure>
-                                <img className="imgAcordeonHome" src={remoBathroomHome} alt="Bathroom Remodeling" />
+                                <img className="imgCardService" src={remoKitchenHome}></img>
                             </figure>
-                            <div className="cnt-linkMoreAcordeon">
-                                <Link to="/bathroom-remodeling" className="learnMoreLink">Learn More<i className="arrowLinkAcor bi bi-arrow-right"></i></Link>
-
-                            </div>
-
+                            <link>
+                            </link>
                         </div>
-                        <hr className="separaAcordeon"></hr>
-                        <div className="cnt-cardAcordeon">
-                            <h2 className="subcardAcorde"><span className="numCard">03</span>Commercial Build-Outs</h2>
+                        <div className="cnt-card">
+                            <h2 className="tittleCardServices"><span className="NumCardService">02</span>Bathroom Remodeling</h2>
                             <figure>
-                                <img className="imgAcordeonHome" src={remoComerHome} alt="Commercial Build-Outs" />
+                                <img className="imgCardService" src={remoBathroomHome}></img>
                             </figure>
-                            <div className="cnt-linkMoreAcordeon">
-                                <Link to="/commercial-build-outs" className="learnMoreLink">Learn More<i className="arrowLinkAcor bi bi-arrow-right"></i></Link>
-                            </div>
+                            <link>
+                            </link>
                         </div>
-                        <hr className="separaAcordeon"></hr>
+                        <div className="cnt-card">
+                            <h2 className="tittleCardServices"><span className="NumCardService">03</span>Commercial Build-Outs</h2>
+                            <figure>
+                                <img className="imgCardService" src={remoComerHome}></img>
+                            </figure>
+                            <link>
+                            </link>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div>
+                    <h2 className="subTittleChoseUs">Why Florida Trusts Us for Remodeling & Repairs</h2>
+                </div>
+                <div>
+                    <div className="parent2">
+                        <div className="cnt-card2">
+                            <figure className="icon-container">
+                                <i className="iconUs bi bi-badge-3d-fill"></i>
+                            </figure>
+                            <h2 className="tittleCard2">3D Project Preview</h2>
+                            <p>See your remodel digitally before we start</p>
+                        </div>
+                        <div className="cnt-card2">
+                            <figure className="icon-container">
+                                <i className="iconUs bi bi-camera2"></i>
+                            </figure>
+                            <h2 className="tittleCard2">Daily Photo Updates</h2>
+                            <p>Track progress via our client portal</p>
+                        </div>
+                        <div className="cnt-card2">
+                            <figure className="icon-container">
+                                <i className="iconUs bi bi-wallet-fill"></i>
+                            </figure>
+                            <h2 className="tittleCard2">Open-Book Pricing</h2>
+                            <p>Hourly labor rates + material costs disclosed upfront</p>
+                        </div>
                     </div>
                 </div>
             </section>
