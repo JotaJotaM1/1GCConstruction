@@ -38,24 +38,42 @@ function Home() {
                             <figure>
                                 <img className="imgCardService" src={remoKitchenHome}></img>
                             </figure>
-                            <link>
-                            </link>
+                            <div className="cnt-tag">
+                                <span className="tagServices">
+                                    palabra 1
+                                </span>
+                                <span className="tagServices">
+                                    palabra 1.2
+                                </span>
+                            </div>
                         </div>
                         <div className="cnt-card">
                             <h2 className="tittleCardServices"><span className="NumCardService">02</span>Bathroom Remodeling</h2>
                             <figure>
                                 <img className="imgCardService" src={remoBathroomHome}></img>
                             </figure>
-                            <link>
-                            </link>
+                            <div className="cnt-tag">
+                                <div className="tagServices">
+                                    palabra 2
+                                </div>
+                                <div className="tagServices">
+                                    palabra 2.2
+                                </div>
+                            </div>
                         </div>
                         <div className="cnt-card">
                             <h2 className="tittleCardServices"><span className="NumCardService">03</span>Commercial Build-Outs</h2>
                             <figure>
                                 <img className="imgCardService" src={remoComerHome}></img>
                             </figure>
-                            <link>
-                            </link>
+                            <div className="cnt-tag">
+                                <div className="tagServices">
+                                    palabra 3
+                                </div>
+                                <div className="tagServices">
+                                    palabra 3.3
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
