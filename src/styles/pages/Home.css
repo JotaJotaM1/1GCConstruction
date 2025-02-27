@@ -63,7 +63,7 @@ main {
 }
 
 
-.btn-Hww {
+.btn-Hww, .btn-steps {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -74,6 +74,7 @@ main {
     width: 8rem;
     border-radius: 3rem;
     box-shadow: 0px 4px 5px -6px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
 }
 
 .parent {
@@ -206,4 +207,17 @@ main {
 
 .rutVideo {
     text-decoration: none;
+}
+.cnt-btnStep{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto 0;
+}
+
+.btn-steps {
+    width: 14rem;
+    margin: 30px 0 40px;
+
 }

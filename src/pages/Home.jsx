@@ -4,6 +4,7 @@ import portadaHome from '../assets/portadaHome.jpg';
 import remoKitchenHome from '../assets/remoKitchenHome.jpg';
 import remoBathroomHome from '../assets/remoBathroomHome.jpg';
 import remoComerHome from '../assets/remoComerHome.jpg';
+import Steps from '../components/Steps';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
 
@@ -109,11 +110,17 @@ function Home() {
                 </div>
                 <div className="cntButton">
                     <Link className="rutVideo" to="#">
-                        <button className="btn-Hww">
-                            Watch Our Process Video
+                        <button className="btn-Hww btn-steps">
+                            Schedule a Free Q&A Cal
                             <i className="arrowbtnHww bi bi-arrow-right"></i>
                         </button>
                     </Link>
+                </div>
+            </section>
+            <section>
+                <Steps />
+                <div className="cnt-btnStep">
+                    <button className="btn-steps">Watch Our Process Video<i className="arrowbtnHww bi bi-arrow-right"></i></button>
                 </div>
             </section>
         </main>
