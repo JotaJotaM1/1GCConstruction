@@ -51,13 +51,6 @@ main {
     padding-left: 6px;
 }
 
-.titleAcordenon {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    padding: 60px 0 50px 0;
-}
 
 .imgAcordeonHome {
     width: 100%;
@@ -69,12 +62,8 @@ main {
     padding: 35px 10px;
 }
 
-.subTitleAcor {
-    font-size: 40px;
-    font-weight: 400;
-}
 
-.btnAcordeon, .btn-Hww {
+.btn-Hww {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -87,10 +76,6 @@ main {
     box-shadow: 0px 4px 5px -6px rgba(0, 0, 0, 0.75);
 }
 
-.upRigAcordeon {
-    font-size: 13px;
-    padding-left: 10px;
-}
 
 .parent {
     display: grid;
@@ -124,22 +109,18 @@ main {
     border-bottom: 1px solid #d4d4d4;
 }
 
-.subTittleService {
-    max-width: 300px;
-    text-align: center;
-    padding: 0 0 20px;
-    color: #6F6F6F;
-    line-height: 1.2;
-    font-size: 15px;
-    margin: 0 auto;
-}
 
-.subTittleChoseUs {
+.subTittleChoseUs,
+.subTittleService {
     text-align: center;
     font-size: 30px;
     font-weight: 400;
     padding: 40px 0 10px;
     line-height: 1.2;
+}
+
+.subTittleService{
+    padding-top: 80px;
 }
 
 .parent2 {
@@ -160,7 +141,8 @@ main {
     border-radius: 13px;
 
 }
-.icon-container{
+
+.icon-container {
     width: 60px;
     height: 60px;
     background-color: black;
@@ -171,17 +153,18 @@ main {
     margin-bottom: 20px;
 }
 
-.iconUs{
-    font-size: 30px; 
-    color: #65b5ff;   
+.iconUs {
+    font-size: 30px;
+    color: #65b5ff;
 }
-.tittleCard2{
+
+.tittleCard2 {
     font-size: 25px;
     font-weight: 600;
     padding-bottom: 20px;
 }
 
-.cntButton{
+.cntButton {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -189,18 +172,19 @@ main {
     padding: 20px 0 30px;
 }
 
-.btn-Hww{
+.btn-Hww {
     width: 240px;
 }
-.arrowbtnHww{
+
+.arrowbtnHww {
     font-size: 13px;
     padding-left: 10px;
 }
 
-.textcard2{
+.textcard2 {
     line-height: 1.2;
 }
 
-.rutVideo{
+.rutVideo {
     text-decoration: none;
 }

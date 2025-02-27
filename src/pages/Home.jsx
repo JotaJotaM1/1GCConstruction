@@ -27,14 +27,11 @@ function Home() {
             </section>
             <section>
                 <div className="cnt-acordeonFather">
-                    <div className="titleAcordenon">
-                        <h2 className="subTitleAcor">Services</h2>
-                        <button className="btnAcordeon">Explore All<i className="upRigAcordeon bi bi-arrow-up-right"></i></button>
-                    </div>
                     <div>
                         <h2 className="subTittleService">Top Residential & Commercial Remodeling Services in Florida</h2>
                     </div>
-
+                    <div>
+                    </div>
                     <div className="parent">
                         <div className="cnt-card">
                             <h2 className="tittleCardServices"><span className="NumCardService">01</span>Kitchen Remodeling</h2>
