@@ -12,13 +12,13 @@ function Home() {
     return (
         <main>
             <section>
-                <div className="cnt-title">
-                    <h1 className="titleHome">Florida&rsquo;s Trusted Remodeling Contractor</h1>
-                    <p className="subtitleHome">Residential & Commercial Experts</p>
-                </div>
-                <div>
+                <div className="cnt-imgPortadaHome">
                     <figure className="cnt-imgPortada">
                         <img className="portadaHome" src={portadaHome} alt="Portada" />
+                        <div className="cnt-title">
+                            <h1 className="titleHome">Florida&rsquo;s Trusted Remodeling Contractor</h1>
+                            <p className="subtitleHome">Residential & Commercial Experts</p>
+                        </div>
                         <Link className="textCTAimgPorta">
                             Get Your Free Project Estimate
                             <i className="arrowImgPorta bi bi-arrow-right"></i>
