@@ -4,31 +4,23 @@ main {
 
 .cnt-imgPortadaHome {
     position: relative;
-    /* Necesario para posicionar el texto de manera absoluta */
+
     width: 100%;
-    /* Ajusta según sea necesario */
+
 }
 
 
 
 .cnt-title {
-    padding: 15px;
     position: absolute;
-    /* Posiciona el texto sobre la imagen */
     top: 50%;
-    /* Centra verticalmente */
     left: 50%;
-    /* Centra horizontalmente */
     transform: translate(-50%, -50%);
-    /* Ajusta el centrado */
     text-align: center;
-    /* Alinea el texto al centro */
     color: white;
-    /* Color del texto */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-    /* Sombra negra para mejorar la legibilidad */
     width: 100%;
-    /* Ajusta el ancho del texto */
+
 }
 
 .titleHome {
@@ -68,7 +60,6 @@ main {
     display: flex;
     position: absolute;
     bottom: 20px;
-    /* Posición en la parte inferior */
     top: 90%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -79,7 +70,6 @@ main {
     justify-content: center;
     align-items: center;
     background-color: transparent;
-    /* Fondo semitransparente para el CTA */
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
 }
 
