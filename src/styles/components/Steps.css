@@ -43,7 +43,7 @@
 
 .step-content .step-tittle {
     font-size: 20px;
-    font-weight:600;
+    font-weight:400;
     color: #333;
     line-height: 1.2;
 }
@@ -57,7 +57,7 @@
 .step-tiitlePrinci{
     text-align: center;
     font-size: 30px;
-    font-weight: 400;
-    padding: 15px 50px 30px;
+    font-weight: 500;
+    padding: 15px 20px 30px;
     line-height: 1.2;
 }
