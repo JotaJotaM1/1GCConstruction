@@ -123,6 +123,28 @@ function Home() {
                     <button className="btn-steps">Watch Our Process Video<i className="arrowbtnHww bi bi-arrow-right"></i></button>
                 </div>
             </section>
+            <section>
+                <div className="cnt-fatherResorces">
+                    <div>
+                        <h2 className="tittleResorces">Essential Resources for Florida Homeowners</h2>
+                    </div>
+                    <div className="cnt-cardResorces">
+                        <h2 className="titlle-cardResorces"><i className="iconrResorcesGuide bi bi-rulers"></i>2024 Remodeling Cost Guide</h2>
+                        <p className="text-cardResorces">Florida Pricing per Sq.Ft - Kitchen, Bath & More</p>
+                        <button className="btn-cardResorces">Download Free PDF</button>
+                    </div>
+                    <div className="cnt-cardResorces">
+                        <h2 className="titlle-cardResorces"><i className="iconrResorcesList bi bi-check-square-fill"></i>Contractor Vetting Checklist</h2>
+                        <p className="text-cardResorces">50 Red Flags to Avoid When Hiring</p>
+                        <button className="btn-cardResorces">Get Checklist</button>
+                    </div>
+                    <div className="cnt-cardResorces">
+                        <h2 className="titlle-cardResorces"><i className="iconrResorcesCalculate bi bi-bar-chart-line-fill"></i>2024 Remodeling Cost Guide</h2>
+                        <p className="text-cardResorces">Estimate Your Project’s Value Increase</p>
+                        <button className="btn-cardResorces">Calculate Now</button>
+                    </div>
+                </div>
+            </section>
         </main>
     );
 }
