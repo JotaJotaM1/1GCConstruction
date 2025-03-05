@@ -4,6 +4,9 @@ import portadaHome from '../assets/portadaHome.jpg';
 import remoKitchenHome from '../assets/remoKitchenHome.jpg';
 import remoBathroomHome from '../assets/remoBathroomHome.jpg';
 import remoComerHome from '../assets/remoComerHome.jpg';
+import avatarOne from '../assets/avatarOne.png'
+import avatarTwo from '../assets/avatarTwo.png'
+import avatarThree from '../assets/avatarThree.png'
 import Steps from '../components/Steps';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
@@ -142,6 +145,52 @@ function Home() {
                         <h2 className="titlle-cardResorces"><i className="iconrResorcesCalculate bi bi-bar-chart-line-fill"></i>2024 Remodeling Cost Guide</h2>
                         <p className="text-cardResorces">Estimate Your Project’s Value Increase</p>
                         <button className="btn-cardResorces">Calculate Now</button>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div>
+                    <div>
+                        <h2 className="tittleTotalServi">Explore Our Services</h2>
+                        <p className="textTotalServi">Residential, commercial, and industrial clients trust our expertise to carry out construction and remodeling projects with exceptional results. We have a team of highly skilled professionals and a wide range of services to bring any project to life, from renovations to large-scale constructions.</p>
+                    </div>
+                    <div className="cnt-linkServices">
+                        <ul>
+                            <li><Link to="#">Architectural design and planning</Link></li>
+                            <li><Link to="#">New construction projects</Link></li>
+                            <li><Link to="#">Full home remodeling</Link></li>
+                            <li><Link to="#">Additions and renovations</Link></li>
+                            <li><Link to="#">Office and commercial space construction</Link></li>
+                            <li><Link to="#">Facade remodeling</Link></li>
+                            <li><Link to="#">Interior design and construction</Link></li>
+                            <li><Link to="#">Electrical and plumbing installations</Link></li>
+                            <li><Link to="#">Waterproofing and thermal insulation</Link></li>
+                            <li><Link to="#">Pool and recreational area construction</Link></li>
+                            <li><Link to="#">Flooring, finishes, and coatings</Link></li>
+                            <li><Link to="#">Metal and concrete structures</Link></li>
+                            <li><Link to="#">Custom carpentry and furniture</Link></li>
+                            <li><Link to="#">Sustainable and energy-efficient construction</Link></li>
+                            <li><Link to="#">Project management and supervision</Link></li>
+                            <li><Link to="#">Construction consulting and advisory</Link></li>
+                        </ul>
+                    </div>
+                    <div className="cnt-cardCTAservices">
+                        <div className="cardCTAservices">
+                            <h2 className="titleCardCTAServ">Designing the Future of Architecture Today</h2>
+                            <p className="textCardCTAServ">Crafting Spaces That Reflect Your Dreams</p>
+                            <div className="btn-fatherCTAbtn">
+                                <button className="btn-OneCtaServices">Contact Us<i className=" arrowCtaServices bi bi-arrow-up-right"></i></button>
+                                <button className="btn-TwoCtaServices">Our Services<i className="arrowCtaServices bi bi-arrow-up-right"></i></button>
+                            </div>
+                            <div className="team-section">
+                                <div className="team-images">
+                                    <img src={avatarOne} alt="Person 1" className="team-member one" />
+                                    <img src={avatarTwo} alt="Person 2" className="team-member two" />
+                                    <img src={avatarThree} alt="Person 3" className="team-member three" />
+                                </div>
+                                <h2>Shaping Spaces, Inspiring Futures</h2>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
