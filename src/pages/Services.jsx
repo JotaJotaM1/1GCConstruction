@@ -1,11 +1,22 @@
 import "../styles/pages/Services.css";
+import item1 from '../assets/item1.jpg';
+import item2 from '../assets/item2.jpg';
 
 function Services() {
     return (
         <main>
+            <section className="sectionTittle">
+                <div className="hero-container">
+                    <h1 className="hero-title">
+                        Elevate Your Products <br /> with Precision and Artistry
+                    </h1>
+                    <img src={item1} alt="Decoración" className="floating-image image-1" />
+                    <img src={item2} alt="Decoración" className="floating-image image-2" />
+                </div>
+            </section>
             <section>
                 <div>
-                    <h1 className="titleH1Services">Our Services</h1>
+                    <h2 className="titleH1Services">Our Services</h2>
                     <p className="textH1Services">We begin by understanding your vision and translating it into creative, functional design concepts, Helping you choose the perfect design style to reflect your personality and needs.</p>
                 </div>
             </section>
@@ -16,6 +27,7 @@ function Services() {
                     <div className="grid-item item3"></div>
                 </div>
             </section>
+
         </main>
     );
 }
