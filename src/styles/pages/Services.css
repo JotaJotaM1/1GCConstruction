@@ -18,14 +18,12 @@
     font-weight: bold;
     position: relative;
     z-index: 10;
-    /* Asegura que el texto esté por encima */
 }
 
 .floating-image {
     position: absolute;
     width: 150px;
     mix-blend-mode: multiply;
-    /* Permite que la imagen interactúe con el texto */
 }
 
 .image-1 {
@@ -39,11 +37,6 @@
     right: 20%;
     transform: rotate(-15deg);
 }
-
-
-
-
-
 
 
 .titleH1Services {
@@ -80,6 +73,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    border-radius: 10px;
 }
 
 .item2 {
@@ -87,6 +81,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    border-radius: 10px;
 }
 
 .item3 {
@@ -96,5 +91,6 @@
     background-size: cover;
     background-position: center;
     grid-column: 1 / -1;
+    border-radius: 10px;
 }
 

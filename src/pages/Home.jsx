@@ -4,10 +4,8 @@ import portadaHome from '../assets/portadaHome.jpg';
 import remoKitchenHome from '../assets/remoKitchenHome.jpg';
 import remoBathroomHome from '../assets/remoBathroomHome.jpg';
 import remoComerHome from '../assets/remoComerHome.jpg';
-import avatarOne from '../assets/avatarOne.png'
-import avatarTwo from '../assets/avatarTwo.png'
-import avatarThree from '../assets/avatarThree.png'
 import Steps from '../components/Steps';
+import CtaAll from '../components/CtaAll';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
 
@@ -174,24 +172,7 @@ function Home() {
                             <li><Link to="#">Construction consulting and advisory</Link></li>
                         </ul>
                     </div>
-                    <div className="cnt-cardCTAservices">
-                        <div className="cardCTAservices">
-                            <h2 className="titleCardCTAServ">Designing the Future of Architecture Today</h2>
-                            <p className="textCardCTAServ">Crafting Spaces That Reflect Your Dreams</p>
-                            <div className="btn-fatherCTAbtn">
-                                <button className="btn-OneCtaServices">Contact Us<i className=" arrowCtaServices bi bi-arrow-up-right"></i></button>
-                                <button className="btn-TwoCtaServices">Our Services<i className="arrowCtaServices bi bi-arrow-up-right"></i></button>
-                            </div>
-                            <div className="team-section">
-                                <div className="team-images">
-                                    <img src={avatarOne} alt="Person 1" className="team-member one" />
-                                    <img src={avatarTwo} alt="Person 2" className="team-member two" />
-                                    <img src={avatarThree} alt="Person 3" className="team-member three" />
-                                </div>
-                                <h2>Shaping Spaces, Inspiring Futures</h2>
-                            </div>
-                        </div>
-                    </div>
+                    <CtaAll />
                 </div>
             </section>
         </main>

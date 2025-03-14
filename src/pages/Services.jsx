@@ -1,6 +1,7 @@
 import "../styles/pages/Services.css";
 import item1 from '../assets/item1.jpg';
 import item2 from '../assets/item2.jpg';
+import CtaAll from '../components/CtaAll';
 
 function Services() {
     return (
@@ -26,6 +27,9 @@ function Services() {
                     <div className="grid-item item2"></div>
                     <div className="grid-item item3"></div>
                 </div>
+            </section>
+            <section>
+                <CtaAll />
             </section>
 
         </main>
