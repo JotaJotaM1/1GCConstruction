@@ -33,8 +33,12 @@
 }
 
 .icon {
-    font-size: 18px;
+    font-size: 13px;
     transition: transform 0.3s ease;
+    background-color: #0C4E6E;
+    color: white;
+    padding: 6px;
+    border-radius: 50%;
 }
 
 .icon.open {
