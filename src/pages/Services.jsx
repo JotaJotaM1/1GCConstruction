@@ -29,7 +29,7 @@ function Services() {
                     <div className="grid-item item3"></div>
                 </div>
             </section>
-            <section>
+            <section className="sectionAcordeon">
                 <Acordeon />
             </section>
             <section>
