@@ -2,6 +2,7 @@ import "../styles/pages/Services.css";
 import item1 from '../assets/item1.jpg';
 import item2 from '../assets/item2.jpg';
 import CtaAll from '../components/CtaAll';
+import Acordeon from "../components/Acordeon";
 
 function Services() {
     return (
@@ -29,9 +30,11 @@ function Services() {
                 </div>
             </section>
             <section>
+                <Acordeon />
+            </section>
+            <section>
                 <CtaAll />
             </section>
-
         </main>
     );
 }
