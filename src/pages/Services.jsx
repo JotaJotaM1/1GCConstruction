@@ -4,6 +4,7 @@ import item2 from '../assets/item2.jpg';
 import CtaAll from '../components/CtaAll';
 import Acordeon from "../components/Acordeon";
 import LogoCarousel from "../components/LogoCarrousel";
+import StatsSection from "../components/StatsSection";
 
 function Services() {
     return (
@@ -19,6 +20,9 @@ function Services() {
             </section>
             <section>
                 <LogoCarousel />
+            </section>
+            <section>
+                <StatsSection />
             </section>
             <section>
                 <div>
