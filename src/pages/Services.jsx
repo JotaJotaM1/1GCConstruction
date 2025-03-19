@@ -3,6 +3,7 @@ import item1 from '../assets/item1.jpg';
 import item2 from '../assets/item2.jpg';
 import CtaAll from '../components/CtaAll';
 import Acordeon from "../components/Acordeon";
+import LogoCarousel from "../components/LogoCarrousel";
 
 function Services() {
     return (
@@ -15,6 +16,9 @@ function Services() {
                     <img src={item1} alt="Decoración" className="floating-image image-1" />
                     <img src={item2} alt="Decoración" className="floating-image image-2" />
                 </div>
+            </section>
+            <section>
+                <LogoCarousel />
             </section>
             <section>
                 <div>

@@ -1,0 +1,35 @@
+.carousel-container {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    background: #f8f9fa;
+    padding: 20px 0;
+}
+
+.carousel-track {
+    display: flex;
+    gap: 40px;
+    animation: scroll 20s linear infinite;
+}
+
+.carousel-logo {
+    width: 60px;
+    height: 60px;
+    opacity: 0.8;
+    transition: transform 0.3s ease-in-out, opacity 0.3s;
+}
+
+.carousel-logo:hover {
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+@keyframes scroll {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+}
