@@ -31,6 +31,10 @@ function Services() {
             </section>
             <section className="sectionAcordeon">
                 <Acordeon />
+                <div className="cntButtCtaAcorde">
+                    <button className="btnAcordeonCta">Free Quote<i className="ArrowFreeCtaAcordeon bi bi-arrow-up-right"></i></button>
+                </div>
+                
             </section>
             <section>
                 <CtaAll />

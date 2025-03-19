@@ -1,6 +1,7 @@
-.sectionAcordeon{
+.sectionAcordeon {
     padding: 40px 0;
 }
+
 .accordion {
     margin: 10px;
     border-radius: 8px;
@@ -23,8 +24,12 @@
     border-radius: 12px;
 }
 
+.tittleAcordionHeader {
+    font-weight: 400;
+}
+
 .accordion-header:hover {
-    background: #e0e0e0;
+    background: #ebebeb;
 }
 
 .icon {
@@ -50,11 +55,36 @@
     padding: 15px;
     gap: 20px;
 }
-.imgItemAcordeon{
+
+.imgItemAcordeon {
     border-radius: 10px;
     height: 140px;
     width: 140px;
 }
-.textContentAcorde{
+
+.textContentAcorde {
     color: gray;
+}
+.cntButtCtaAcorde{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.btnAcordeonCta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #6F6F6F;
+    background-color: transparent;
+    border: 1px solid #A4ACB9;
+    height: 2.5rem;
+    width: 9rem;
+    border-radius: 3rem;
+    box-shadow: 0px 4px 5px -6px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+.ArrowFreeCtaAcordeon{
+    padding-left: 10px;
 }

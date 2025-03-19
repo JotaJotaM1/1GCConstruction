@@ -24,7 +24,7 @@ const Accordion = () => {
             {sections.map((section, index) => (
                 <div key={section.id} className="accordion-item">
                     <div className="accordion-header" onClick={() => toggleSection(index)}>
-                        <h3>{section.title}</h3>
+                        <h3 className="tittleAcordionHeader">{section.title}</h3>
                         <i className={`bi bi-chevron-down icon ${activeIndex === index ? "open" : ""}`}></i>
                     </div>
                     <div className={`accordion-content ${activeIndex === index ? "show" : ""}`}>
