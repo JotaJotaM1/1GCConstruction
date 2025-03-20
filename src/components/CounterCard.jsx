@@ -7,22 +7,24 @@ const CounterCard = ({ icon, number, text }) => {
     const cardRef = useRef(null);
 
     useEffect(() => {
+        const currentRef = cardRef.current; // Guardamos la referencia en una variable
+
         const observer = new IntersectionObserver(
             (entries) => {
                 if (entries[0].isIntersecting) {
                     setStartCount(true);
                 }
             },
-            { threshold: 0.8 }
+            { threshold: 0.8 } // Se activa cuando el 80% del elemento es visible
         );
 
-        if (cardRef.current) {
-            observer.observe(cardRef.current);
+        if (currentRef) {
+            observer.observe(currentRef);
         }
 
         return () => {
-            if (cardRef.current) {
-                observer.unobserve(cardRef.current);
+            if (currentRef) {
+                observer.unobserve(currentRef);
             }
         };
     }, []);
