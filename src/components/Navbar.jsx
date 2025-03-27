@@ -32,6 +32,9 @@ const Navbar = () => {
                         <li>
                             <Link to="/Portfolio" onClick={toggleMenu}>Portfolio</Link> {/* Usa Link */}
                         </li>
+                        <li>
+                            <Link to="/Quote" onClick={toggleMenu}>Quote</Link> {/* Usa Link */}
+                        </li>
                     </ul>
                 </div>
                 <div className="navbar-logo">MiLogo</div>
